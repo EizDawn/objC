@@ -92,18 +92,8 @@
                                             <next>
                                               <block type="oled_drawnumber" id="25" inline="true">
                                                 <value name="NUMBER">
-                                                  <block type="logic_compare" id="26" inline="true">
-                                                    <field name="OP">LT</field>
-                                                    <value name="A">
-                                                      <block type="sensor_light" id="27">
-                                                        <field name="LIGHT">LEFT</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="B">
-                                                      <block type="math_number" id="28">
-                                                        <field name="NUM">90</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="sensor_light" id="27">
+                                                    <field name="LIGHT">LEFT</field>
                                                   </block>
                                                 </value>
                                                 <next>
